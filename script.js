@@ -51,20 +51,17 @@ function calcBinary() {
     }
 
             for (let i = 0; i < binaryArray.length; ++i){
-            for (let j = 0; j < binaryArray[i].length; j++) {
+                for (let j = 0; j < binaryArray[i].length; j++) {
             
-                output += binaryArray[i][j];
-                console.log(binaryArray[i][j]);
-            }
+                    output += binaryArray[i][j];
+                    console.log(binaryArray[i][j]);
+                }
         
-            output += ".";
+                output += ".";
        
             }
 
             document.getElementById('binaryOutput').textContent = output;
-
-
-
      
 }
 
