@@ -42,12 +42,7 @@ function Octets() {
         }
     }
 
-    /**for (row of binaryArray){
-        let rowstring;
-        //document.writeln(rowstring + "<br>");
-        document.getElementById('binaryOutput').textContent= rowstring = row.join(' ');
-        console.log(rowstring);
-    }**/
+
     let output = "";
    for (let i = 0; i < binaryArray.length; ++i){
         for (let j = 0; j < binaryArray[i].length; j++) {
