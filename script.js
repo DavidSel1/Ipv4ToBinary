@@ -1,4 +1,4 @@
-function Octets() {
+function calcBinary() {
     //gets the values from the html
     let octetOne = document.getElementById("firstOctet").value;
     let octetTwo = document.getElementById("secondOctet").value;
