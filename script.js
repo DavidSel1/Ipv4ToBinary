@@ -16,6 +16,9 @@ function calcBinary() {
     //used to store the actual binary answers
     let binaryArray = [];
 
+    //used to store actual output
+    let output = "";
+
 
     for (let octIndex = 0; octIndex < octArray.length; ++octIndex){
         if (octArray[octIndex] >= 0 && octArray[octIndex] <= 255 ){
@@ -34,30 +37,33 @@ function calcBinary() {
                     
                     binaryArray[octIndex][minusIndex] = 0;
                 }
+          
             }
+
         }
           
          else { 
             alert("Octet number must not be more 255");
-        }
-    }
-
-
-    let output = "";
-   for (let i = 0; i < binaryArray.length; ++i){
-        for (let j = 0; j < binaryArray[i].length; j++) {
+            binaryArray = [];
+            document.getElementById('binaryOutput').textContent = "";
             
-            output += binaryArray[i][j];
-            console.log(binaryArray[i][j]);
         }
-        
-        output += ".";
-       
     }
-    document.getElementById('binaryOutput').textContent = output;
+
+            for (let i = 0; i < binaryArray.length; ++i){
+            for (let j = 0; j < binaryArray[i].length; j++) {
+            
+                output += binaryArray[i][j];
+                console.log(binaryArray[i][j]);
+            }
+        
+            output += ".";
+       
+            }
+
+            document.getElementById('binaryOutput').textContent = output;
 
 
-     //document.getElementById("oot").innerHTML = '*';**/
 
      
 }
