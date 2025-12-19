@@ -44,12 +44,14 @@ function calcBinary() {
           
          else { 
             alert("Octet number must not be more 255");
+
+            //clears array and output until octet is fixed
             binaryArray = [];
             document.getElementById('binaryOutput').textContent = "";
             
         }
     }
-
+            //shows the answer that are stored in the binary array
             for (let i = 0; i < binaryArray.length; ++i){
                 for (let j = 0; j < binaryArray[i].length; j++) {
             
