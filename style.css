@@ -1,84 +1,80 @@
 body{
+    min-height: 500px;
     background-color: rgb(36, 36, 40);
-    align-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 #inputBox{
     border: 2px solid white;
     background-color: rgb(36, 36, 40);
     border-radius: 10px;
-    align-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 #heading{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 25px;
+    align-items: center;
+    align-content: center;
+    display: block;
+    
+  
 }
 #firstOctet {
     background-color: rgb(36, 36, 40);
     border-color: white;
     color: white;
-    padding-bottom: 2px;
-    border-radius: 5px;
     font-size: larger;
-    padding-left: none;
-    margin-left: 25px;
+    border-radius: 5px;
     
 }
 #secondOctet {
-border-radius: 5px;
-border-color: white;
-text-shadow: none;
-background-color: rgb(36, 36, 40);
-color: white;
-padding-bottom: 2px;
-font-size: larger;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgb(36, 36, 40);
+    color: white;
+    font-size: larger;
 
 }
 #thirdOctet {
-color: white;
-background-color: rgb(36, 36, 40);
-padding-bottom: 2px;
-border-color: white;
-border-radius: 5px;
-font-size: larger;
+    color: white;
+    background-color: rgb(36, 36, 40);
+    border-color: white;
+    border-radius: 5px;
+    font-size: larger;
 
 }
 #fourthOctet{
     background-color: rgb(36, 36, 40);
     border-color: white;
     color: white;
-    padding-bottom: 2px;
     border-radius: 5px;
     font-size: larger;
 }
 
 
 #Button{
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 5px;
-padding-top: 5px;
-margin-top: 20px;
-margin-left: 465px;
-box-shadow: none;
-background-color: rgb(36, 36, 40);
-border-color: white;
-color: white;
-border-radius: 10px;
-font-size: larger;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-shadow: none;
+    background-color: rgb(36, 36, 40);
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-items: center;
+    align-content: center;
 }
 
 #outputLabel{
+    display: block;
     color: white;
-    padding-left: 25px;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -86,11 +82,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #answerBox{
     background-color: rgb(36, 36, 40);
     border-color: white;
-    margin-left: 25px;
-    margin-right: 260px;
     border-radius: 5px;
     border-color: white;
     border-top: 2px;
+    justify-content: center;
+    align-items: center;
+    
 }
 p{
     color: white;
@@ -98,13 +95,30 @@ p{
     padding: none;
 }
 #promtLabel{
-margin-left: 25px;
+    display: block;
+    
 }
 #binaryOutput{
+    display: flex;
     border-color: white;
-    background-color: rgb(36, 36, 40);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
-    margin-top: 0px;
+    
+
+   
+}
+#buttonDiv{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#octetDiv{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }

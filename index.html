@@ -9,19 +9,24 @@
 <body>
     <script src="script.js" type="text/Javascript"></script>
       <div id="inputBox">
+        
         <h1 id="heading">IPv4 TO BINARY CONVERTOR</h1>
+    
         <p id="promtLabel">Enter IPv4 address</p>
-        <p>
-            <input type="number" id="firstOctet">
-            .
-            <input type="number" id="secondOctet">
-            .
-            <input type="number" id="thirdOctet">
-            .
-            <input type="number" id="fourthOctet">
-        </p>
-        <br><span><input type="button" id="Button" value="Convert" onclick="calcBinary()"></span>
-    <p id="outputLabel">IPv4 to Binary:</p><br>
+
+        <div id="octetDiv">
+            <p>
+                <input type="number" id="firstOctet">
+                .
+                <input type="number" id="secondOctet">
+                .
+                <input type="number" id="thirdOctet">
+                .
+                <input type="number" id="fourthOctet">
+            </p>
+        </div><br>
+    <div id="buttonDiv"><input type="button" id="Button" value="Convert" onclick="calcBinary()"></div>
+    <p id="outputLabel">IPv4 to Binary:</p>
     <div id="answerBox"><p id="binaryOutput"></p></label></div>
     </div>
 </body>
