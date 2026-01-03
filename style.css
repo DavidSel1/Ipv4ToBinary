@@ -1,13 +1,13 @@
 body{
     min-height: 500px;
-    background-color: rgb(36, 36, 40);
+    background-color: rgb(3, 3, 12);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #inputBox{
-    border: 2px solid white;
-    background-color: rgb(36, 36, 40);
+    border: 2px solid rgb(7, 220, 78);
+    background-color: rgb(3, 3, 12);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -15,7 +15,7 @@ body{
 }
 
 #heading{
-    color: white;
+    color: rgb(7, 220, 78);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     align-content: center;
@@ -24,33 +24,33 @@ body{
   
 }
 #firstOctet {
-    background-color: rgb(36, 36, 40);
-    border-color: white;
-    color: white;
+    background-color: rgb(3, 3, 12);
+    border-color: rgb(7, 220, 78);
+    color: rgb(7, 220, 78);
     font-size: larger;
     border-radius: 5px;
     
 }
 #secondOctet {
     border-radius: 5px;
-    border-color: white;
-    background-color: rgb(36, 36, 40);
-    color: white;
+    border-color: rgb(7, 220, 78);
+    background-color: rgb(3, 3, 12);
+    color: rgb(7, 220, 78);
     font-size: larger;
 
 }
 #thirdOctet {
-    color: white;
-    background-color: rgb(36, 36, 40);
-    border-color: white;
+    color: rgb(7, 220, 78);
+    background-color: rgb(3, 3, 12);
+    border-color: rgb(7, 220, 78);
     border-radius: 5px;
     font-size: larger;
 
 }
 #fourthOctet{
-    background-color: rgb(36, 36, 40);
-    border-color: white;
-    color: white;
+    background-color: rgb(3, 3, 12);
+    border-color: rgb(7, 220, 78);
+    color: rgb(7, 220, 78);
     border-radius: 5px;
     font-size: larger;
 }
@@ -62,9 +62,9 @@ body{
     padding-bottom: 5px;
     padding-top: 5px;
     box-shadow: none;
-    background-color: rgb(36, 36, 40);
-    border-color: white;
-    color: white;
+    background-color: rgb(3, 3, 12);
+    border-color: rgb(7, 220, 78);
+    color: rgb(7, 220, 78);
     border-radius: 10px;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -74,13 +74,13 @@ body{
 
 #outputLabel{
     display: block;
-    color: white;
+    color: rgb(7, 220, 78);
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 #answerBox{
-    background-color: rgb(36, 36, 40);
+    background-color: rgb(3, 3, 12);
     border-color: white;
     border-radius: 5px;
     border-color: white;
@@ -90,7 +90,7 @@ body{
     
 }
 p{
-    color: white;
+    color: rgb(7, 220, 78);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: none;
 }
@@ -100,8 +100,8 @@ p{
 }
 #binaryOutput{
     display: flex;
-    border-color: white;
-    color: white;
+    border-color: ;
+    color: rgb(7, 220, 78);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     
