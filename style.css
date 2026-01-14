@@ -20,41 +20,15 @@ body{
     align-items: center;
     align-content: center;
     display: block;
-    
-  
-}
-#firstOctet {
-    background-color: rgb(3, 3, 12);
-    border-color: rgb(7, 220, 78);
-    color: rgb(7, 220, 78);
-    font-size: larger;
-    border-radius: 5px;
-    
-}
-#secondOctet {
-    border-radius: 5px;
-    border-color: rgb(7, 220, 78);
-    background-color: rgb(3, 3, 12);
-    color: rgb(7, 220, 78);
-    font-size: larger;
-
-}
-#thirdOctet {
-    color: rgb(7, 220, 78);
-    background-color: rgb(3, 3, 12);
-    border-color: rgb(7, 220, 78);
-    border-radius: 5px;
-    font-size: larger;
-
-}
-#fourthOctet{
-    background-color: rgb(3, 3, 12);
-    border-color: rgb(7, 220, 78);
-    color: rgb(7, 220, 78);
-    border-radius: 5px;
-    font-size: larger;
 }
 
+.OctetBox{
+    border-radius: 5px;
+    border-color: rgb(7, 220, 78);
+    background-color: rgb(3, 3, 12);
+    color: rgb(7, 220, 78);
+    font-size: larger;
+}
 
 #Button{
     padding-left: 20px;
